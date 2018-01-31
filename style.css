@@ -4,14 +4,6 @@
 
 @media only screen and (min-width: 320px) {
    
-.hero-image {
-   background-image: url("small.jpg");
-   height: 50%;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: contain;
-   position: relative;
-}   
 
 h1 {
    font-size: 1.5em;
@@ -154,16 +146,7 @@ footer {
     display: block;
     padding: 1.5px 1.5px;
   }
-   
- .hero-image {
-   background-image: url("medium.jpg");
-   height: 50%;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
-}   
-   
+     
 li {
    text-align: center;
    display: inline; 
@@ -214,17 +197,7 @@ footer {
    width: 210px;
    padding: 1.5px 1.5px;
  }
-   
-.hero-image {
-   background-image: url("large.jpg");
-   height: 50%;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
-} 
-   
-   
+      
 li a {
    font-size: 1.5em;
    padding: 15px 15px;
