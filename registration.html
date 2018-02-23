@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Ace In The Hole Weekend Event </title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel = "stylesheet" href = "css/style.css" type="text/css">
+    <link rel = "stylesheet" href = "css/generic.css" type="text/css">
+    <link rel = "stylesheet" href = "css/reset.css" type="text/css">
+    
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+ </head>
+   
+<body>
+   
+<header>
+   
+   <div id="sitelogo"></div>
+   
+<nav> 
+   
+   <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+   </ul> 
+       
+  <div id="photos"></div><img src="images/triathalon.jpg" alt="runners" style="background-position: center">
+</nav>                           
+     
+</header>
+
+<main>
+   
+<form action="scripts/registration.php" method="POST">
+  
+<input type="text"  placeholder="Name" name="name" class="registration" required>
+<br>
+<input type="email"  placeholder="Email" name="email" class="registration" required>
+<br>
+<input type="text"  placeholder="Phone" name="phone" class="registration" required>
+<br>
+<input type="text"  placeholder="Emergency Contact Name" name="emergency-name" class="registration" required>
+<br>
+<input type="text"  placeholder="Emergency Contact Phone" name="emergency-phone" class="registration" required>
+<br>
+
+<p>Participant</p>
+<select name="participant" size="1">
+<option value="Athlete">athlete</option>
+<option value="Volunteer">volunteer</option>
+</select>
+<br />
+
+<p>Shirt</p>
+<select name="shirt" size="1">
+<option value="xs">XS</option>
+<option value="s">Small</option>
+<option value="m">Medium</option>
+<option value="l">Large</option>
+<option value="1xl">XLarge</option>
+<option value="2xl">2XL</option>
+<option value="3xl">3XL</option>
+<option value="4xl">4XL</option>
+</select>
+<br />
+
+<p>Saturday Events</p>
+<select name="saturday-events" size="1"> 
+<option value="long-course">Long-Course</option> 
+<option value="olympic">Olympic</option>
+<option value="10k">10K</option>
+<option value="half">Half</option>
+<option value="none">None</option>
+</select>
+<br />
+   
+<p>Sunday Events</p>
+<select name="sunday-events" size="1" >
+<option value="sprint">Sprint</option>
+<option value="try-a-tri">Try-a-Tri</option>
+<option value="splash-n-dash">Splash-n-Dash</option>
+<option value="none">None</option>
+</select>
+<br />
+    
+
+<input type="submit" value="Send">
+   
+</form>
+   
+</main>
+</body>     
+</html>

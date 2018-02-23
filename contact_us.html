@@ -28,42 +28,15 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="registration.html">Registration</a></li>
             <li><a href="events.html">Events</a></li>
-            <li><a href="contact_us.html">ContactUs</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
         </ul> 
      
                                  
    
 
    
-  <img src="images/bridge.jpg" alt="bridge" width="800px" height="180px" style="background-position: center">
+  <img src="images/lady-swimmer.jpg" alt="swimmers" style="background-position: center">
    
-                           <h1><p>We would love to hear from you!</p></h1>
-    
-   
-    
-               
-   
- <form>  
-    
-<form action="scripts/contact_process.php"></form>
-
-         
-                  <input type="text" required placeholder="Name" name="name" class="contact">
-                  <br>
-   
-                 <input type="email" required="" placeholder="Your email address" class="contact" name="email">
-                  <br>
-   
-      
-                  <input type="text" required placeholder="Athlete or Volunteer" name="athelete or volunteer" class="contact">
-                  <br>
-   
-                  <textarea required="" placeholder="Message" id="comments" class="contact" name="comments"></textarea>
-                  <br>
-   
-                  <input type="submit" value="Submit">
-   
-</form>
       
 
    
@@ -80,8 +53,27 @@
     
    
 <main>
+    
+    <h2>Contact Us</h2>
         
+<form action="scripts/contact_process.php" method="post">
+      
+      <input type="text"  placeholder="Name" name="name" class="contact" required>
+      <br>
+
+      <input type="email" required="" placeholder="Your email address" name="email" class="contact">
+      <br>
    
+      <textarea required="" placeholder="Comments or Questions " name="comments" class="contact"></textarea>
+      <br>
+   
+                  <select name="participant" style="text-align:center">
+               <option value="athlete">Athlete</option>
+               <option value="volunteer">Volunteer</option></select>
+
+      <input type="submit" value="Submit">
+
+</form>
    
    
    
