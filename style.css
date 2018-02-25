@@ -1,63 +1,114 @@
 
 /* Mobile stylesheet styling for landscape and portrait */
 @media only screen and (min-width: 320px) {
-  body {
+body {
     background-color: #ffffff;
     font-size: 1em;
-    font-family: "Titillium+Web', sans-serif";
+    font-family: 'Titillium+Web', sans-serif;
   }
-  header {
+header {
     padding: 1em;
     background-color: #ffffff;
   }
-  header h1 {
-    color: #FF0000;
-    padding-bottom: .25em;
+header h1 {
+    color: #000000;
+    padding: .50em;
     background-color: #ffffff;
-    font-family: "Titillium+Web', sans-serif";
+    font-family: 'Titillium+Web', sans-serif;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
   }
-  main {
+    
+main {
     padding: 1em;
-    font-family: "Titillium+Web', sans-serif";
+    font-family: 'Titillium+Web', sans-serif;
     text-align: center;
   }
-  main h2 {
-    color: #000000;
-    font-family: "Titillium+Web', sans-serif";
+    
+main h1 {
+color: #000000;
+    padding: .50em;
+    background-color: #ffffff;
+    font-family: 'Titillium+Web', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+    
+main h2 {
+    color: #4F4F4F;
+    padding: .45em;
+    font-family: 'Titillium+Web', sans-serif;
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
   }
-  main main h3 {
-    color: #000000;
-    font-family: "Titillium+Web', sans-serif";
+    
+main h3 {
+    color: #4F4F4F;
+    font-family: 'Titillium+Web', sans-serif;
     font-weight: bold;
+    padding: .40em;
     font-size: 1.3em;
     text-align: center;
   }
-  main p {
+    
+main h4 {
+    color: #4F4F4F;
+    font-family: 'Titillium+Web', sans-serif;
+    font-weight: bold;
+    padding: .25em;
+    font-size: 1em;
+    text-align: center;
+  }
+       
+main p {
     line-height: 1.3em;
     color: #000000;
     display: block;
-    font-family: "Titillium+Web', sans-serif";
+    font-weight: 400;
+    font-family: 'Titillium+Web', sans-serif;
     padding: 1em;
     font-size: 1em;
     text-align: center;
   }
-  #slideshow {
-    display: none;
+    
+dt {
+    line-height: 1.2em;
+    padding: .50em;
+    color: #AD0000; 
+    display: block;
+    font-family: 'Titillium+Web', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    }
+    
+dd {
+    line-height: 1.2em;
+    font-family: 'Titillium+Web', sans-serif;
+    }
+    
+#slideshow {
+    display: none; 
   }
-  #photos {
-    background: url(/cas222/images/cyclist.jpg) no-repeat;
+    
+#images {
+    background: url(/images/triathlon-swimmer.jpg) no-repeat;
     height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
-  ul {
+    
+img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+    
+ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #111111;
@@ -65,30 +116,35 @@
     margin: 0;
     border: 1px solid #FF0000;
   }
-  ul li {
+    
+ul li {
     display: block;
-    background-color: #111111;
+    background-color: #000000;
     text-align: center;
   }
-  ul li a {
+    
+ul li a {
     color: #ffffff;
     font-size: 1.25em;
-    padding: .50em 1em;
+    padding: .40em .40em .40em .40em;
     text-decoration: none;
     text-align: center;
     display: block;
   }
-  ul li a:hover {
+    
+ul li a:hover {
     background-color: #FF0000;
     color: #ffffff;
   }
-  ul li a.active {
+    
+ul li a.active {
     background-color: #FF0000;
     color: #ffffff;
   }
-  .contact {
+    
+.contact {
     width: 100%;
-    color: #000000;
+    color: #4F4F4F;
     font-weight: bold;
     font-size: 1em;
     padding: 1em 1em;
@@ -101,17 +157,20 @@
     text-align: center;
     background-position: center;
   }
-  select,
-  input {
+    
+select,
+input {
     background-position: center;
     font-size: 1.3em;
   }
-  select-container {
+    
+select-container {
     max-width: 100%;
     position: relative;
     background-position: center;
   }
-  input[type=submit] {
+    
+input[type=submit] {
     background-color: #FF0000;
     color: #ffffff;
     margin-top: 1.3em;
@@ -121,10 +180,12 @@
     cursor: pointer;
     text-align: center;
   }
-  input[type=submit]:hover {
+    
+input[type=submit]:hover {
     background-color: #FF0000;
   }
-  .registration {
+      
+.registration {
     width: 80%;
     color: #000000;
     font-weight: bold;
@@ -138,20 +199,23 @@
     resize: vertical;
     text-align: center!important;
   }
-  .participant,
-  .shirt,
-  .event,
-  .event2 {
+    
+.participant,
+.shirt,
+.event,
+.event2 {
     background-position: center!important;
     margin-top: -1em;
   }
-  .container {
+    
+.container {
     width: 100%;
     border-radius: .25em;
     background-color: #ffffff;
     padding: 1.3em;
   }
-  footer {
+    
+footer {
     font-size: 1em;
     background-color: #ffffff;
     color: #111111;
@@ -159,70 +223,84 @@
   }
   
   /* Style all font awesome icons */
-  .fa {
-    padding: 1em;
-    font-size: 2em;
-    width: 2em;
+.fa {
+    padding: .95em;
+    width: 1em;
     text-align: center;
     text-decoration: none;
     margin: .50em;
   }
+    
   /* Add a hover effect if you want */
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
   }
+    
   /* Set a specific color for each brand */
   /* Facebook */
-  .fa-facebook {
+.fa-facebook {
     background: #3B5998;
     color: #ffffff;
   }
+    
   /* Twitter */
-  .fa-twitter {
+.fa-twitter {
     background: #55ACEE;
     color: #ffffff;
   }
 }
+
 /* Tablet stylesheet styling for portrait and landscape */
-@media only screen and (min-width: 481px) {
-  #sitelogo {
+@media only screen and (min-width: 768px) {
+ #sitelogo {
     background: url(/cas222/images/logo.jpg) no-repeat;
     color: #000000;
     float: left;
-    height: 80px;
-    width: 160px;
+    height: 75px;
+    width: 150px;
     display: block;
     font-weight: bolder;
   }
-  ul li {
+    
+ul li {
     text-align: center;
     display: inline;
     float: left;
+    padding: .10em;
   }
-  ul li a {
+    
+ul li a {
     padding: .50em .50em .50em .50em;
-    font-size: 2em;
+    font-size: 1.5em;
   }
+    
+dt {
+    font-size: 1.5em;
+    }
+    
   * {
-    box-sizing: border-box;
+box-sizing: border-box;
   }
   /* Slideshow container */
-  .slideshow-container {
+ .slideshow-container {
     width: 100%;
     position: relative;
     margin: auto;
     text-align: center;
   }
-  .slides_container div {
+    
+ .slides_container div {
     margin: 0px auto;
     width: 100%;
     text-align: center;
   }
+    
   #slideshow {
     display: block;
   }
+    
   /* Hide the images by default */
-  .mySlides {
+.mySlides {
     height: 100%;
     width: 100%;
     background-position: center;
@@ -232,8 +310,9 @@
     display: block;
     margin: 0 auto;
   }
+    
   /* The dots/bullets/indicators */
-  .dot {
+.dot {
     cursor: pointer;
     height: 1em;
     width: 1em;
@@ -243,12 +322,14 @@
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  .active,
-  .dot:hover {
+    
+.active,
+.dot:hover {
     background-color: #FF0000;
   }
+    
   /* Fading animation */
-  .fade {
+.fade {
     height: 100%;
     width: 100%;
     background-position: center;
@@ -262,31 +343,42 @@
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  #photos {
+    
+#photos {
     display: none;
   }
-  img {
+    
+img {
     vertical-align: middle;
-    padding-left: .75em;
   }
-  .fa {
-    padding: 1em;
-    font-size: 3em;
-    width: 2.8em;
-  }
-  footer {
+
+footer {
     font-size: 1.5em;
   }
 }
 /* Desktop stylesheet styling for portrait and landscape */
-@media only screen and (min-width: 1025px) {
-  li a {
-    padding: 1em 1em;
+@media only screen and (min-width: 1024px) {
+    
+ul li {
+    text-align: center;
+    display: inline;
+    float: left;
+    padding: .20em;
   }
-  footer {
+    
+ul li a {
+    padding: .50em .50em .50em .50em;
+    font-size: 1.8em;
+  }
+footer {
     padding: 1.5em 1.5em 1.5em 1.5em;
   }
-  main {
+    
+main {
     padding: 1.5em;
   }
+    
+main p {
+    font-size: 1.3em;
+}
 }
