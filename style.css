@@ -93,14 +93,6 @@ dd {
     display: none; 
   }
     
-#images {
-    background: url(/images/triathlon-swimmer.jpg) no-repeat;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-    
 img {
     height: 100%;
     width: 100%;
@@ -221,14 +213,15 @@ footer {
     color: #111111;
     padding: 1em;
   }
+    
   
   /* Style all font awesome icons */
 .fa {
-    padding: .95em;
-    width: 1em;
+    padding: .90em;
+    width: .90em;
     text-align: center;
     text-decoration: none;
-    margin: .50em;
+    margin: .30em;
   }
     
   /* Add a hover effect if you want */
@@ -253,7 +246,7 @@ footer {
 /* Tablet stylesheet styling for portrait and landscape */
 @media only screen and (min-width: 768px) {
  #sitelogo {
-    background: url(/cas222/images/logo.jpg) no-repeat;
+    background: url(../images/logo.jpg) no-repeat;
     color: #000000;
     float: left;
     height: 75px;

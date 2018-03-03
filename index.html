@@ -10,9 +10,6 @@
     <link rel = "stylesheet" href = "css/generic.css" type="text/css">
     <link rel = "stylesheet" href = "css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
    
  </head>
    
@@ -32,29 +29,29 @@
         </ul> 
 
     
-    <h1>Welcome To Our Annual Event</h1>
+    <h1>Ace in the Hole Multisport Event March 24 - 25, 2018</h1>
 
  <div>
      
 <div id="photos"> 
-<img src="images/cyclist.jpg" style="text-align: center"></div> 
+<img src="images/cyclist.jpg" alt="cyclists" style="text-align: center"></div> 
 <!-- Slideshow container -->
 <div id="slideshow">
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <img src="images/marathon.jpg" style="text-align: center">
+    <img src="images/marathon.jpg" alt="runners" style="text-align: center">
     
   </div>
 
   <div class="mySlides fade">
-    <img src="images/swimmer.jpg" style="text-align: center">
+    <img src="images/swimmer.jpg" alt="swimmer" style="text-align: center">
    
   </div>
 
   <div class="mySlides fade">
-    <img src="images/biker.jpg" style="text-align: center">
+    <img src="images/biker.jpg" alt="biker" style="text-align: center">
    
   </div>
 
@@ -93,11 +90,20 @@
    </main>
     
 <footer> 
+   
+    
+
+<!-- weather widget start -->
+    <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/" data-label_1="PORTLAND" data-label_2="WEATHER" data-days="3" data-theme="original" >PORTLAND WEATHER</a>
+    <!-- weather widget end -->
 
     
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>     
-       
+<a href="https://www.facebook.com/cas222cascade/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/@pcccas222" class="fa fa-twitter"></a>  
+    
+     
+    
+    
 </footer>
     
  <script>
@@ -127,7 +133,23 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-</script> 
+</script>
+    
+  <script>
+!function(d,s,id){
+var js,fjs=d.getElementsByTagName(s)[0];
+    if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+    }
+}
+(document,'script','weatherwidget-io-js');
+</script>
+        
+
+  
     
 </body>
     
