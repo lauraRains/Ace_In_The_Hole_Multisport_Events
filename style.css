@@ -70,7 +70,7 @@ main p {
     font-family: 'Titillium+Web', sans-serif;
     padding: 1em;
     font-size: 1em;
-    text-align: center;
+    text-align: left;
   }
     
 dt {
@@ -86,6 +86,7 @@ dt {
 dd {
     line-height: 1.2em;
     font-family: 'Titillium+Web', sans-serif;
+    text-align: left;
     }
     
 #slideshow {
@@ -201,9 +202,9 @@ input[type=submit]:hover {
     
 .container {
     width: 100%;
-    border-radius: .25em;
+    border-radius: 1em;
     background-color: #ffffff;
-    padding: 1.3em;
+    padding: 1.8em;
   }
     
 footer {
@@ -212,7 +213,7 @@ footer {
     color: #111111;
     padding: 1em;
   }
-    
+
   
   /* Style all font awesome icons */
 .fa {
