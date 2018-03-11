@@ -60,6 +60,7 @@ $Body .= "\n";
 
 $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
+
 if ($success){
   print "<meta http-equiv=\"refresh\" content=\"0;URL=registered.html\">";
 }

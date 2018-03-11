@@ -1,5 +1,6 @@
 <?php
 
+
 $EmailFrom = trim(stripslashes($_POST['email'])); 
 $EmailTo = "ace_in_the_hole_multisport@laurarains.webhostingforstudents.com";
 $Subject = 'Contact Us';
